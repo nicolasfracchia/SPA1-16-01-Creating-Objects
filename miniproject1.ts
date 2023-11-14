@@ -1,12 +1,13 @@
 class Students {
     name: String;
     age: Number;
-    gender: String = "Female";
+    gender: String;
     nationality: String;
 
     constructor(name:String, age:Number, nationality:String){
         this.name = name;
         this.age = age;
+        this.gender = "Female";
         this.nationality = nationality;
     }
 
